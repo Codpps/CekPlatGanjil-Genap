@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="rain"></div>
+    <div class="card">
+      <h1>Pengecekan Plat Nomor Kendaraan</h1>
+      <div class="isi">
+        <label for="InPlat">masukan plan kendaran anda:</label>
+        <input type="text" placeholder="Contoh: B 1234 DPS" id="InPlat" />
+        <button onclick="cek()">Cek</button>
+      </div>
+      <div class="hasil">
+        <span id="PlatCek"></span>
+        <span id="KeteranganCek"></span>
+        <span id="infoCek"></span>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
